@@ -3,4 +3,8 @@
   <component name="ProjectRootManager">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
+ features/nuriza_branch
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
 </project>
