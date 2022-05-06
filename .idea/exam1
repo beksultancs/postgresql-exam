@@ -1,0 +1,17 @@
+SELECT customerName,country FROM [Customers]
+SELECT distinct country FROM [Customers]
+select postalCode from  Customers group By postalCode
+Select *from customers where Country ='Mexico'
+select city, address from customers where customerId = 1
+SELECT * FROM [Customers] where country in ('Germany','Spain')
+SELECT country, CustomerName FROM [Customers] order by country  desc
+SELECT * FROM [Customers] where address = null
+SELECT min(price) FROM [Products]
+SELECT max(productID) FROM [Products]
+SELECT * FROM [Customers] where customerName like ('A%')
+SELECT * FROM [Customers] where Country in ('Germany', 'British','France')
+select * from Customers where country in (select country from suppliers)
+SELECT *, DATE(1996) FROM orders;
+SELECT orders.orderID, customers.customerName from Orders INNER JOIN customers on orders.customerID = customers.customerID
+SELECT customers.customerName, Orders.OrderID
+from customers LEFT JOIN orders ON customers.customerID = orders.customerID ORDER BY customers.customerName
