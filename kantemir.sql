@@ -23,3 +23,5 @@
 12. select contactName FROM [Customers] where country in('Germany','France','Britance');
 
 13. select supplierName,contactName FROM [Suppliers] country;
+
+14.
